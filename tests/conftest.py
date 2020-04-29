@@ -6,7 +6,7 @@ import selenium.webdriver
 def browser():
 
     b = selenium.webdriver.Chrome("/Users/ianbush/Documents/drivers/chromedriver")
-    b.implicitly_wait(20)
+    b.implicitly_wait(10)
 
     yield b
 
